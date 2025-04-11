@@ -1,7 +1,7 @@
 let localStream;
 let remoteStream;
 let peerConnection;
-const ws = new WebSocket("ws://localhost:5159");
+const ws = new WebSocket("ws://192.168.1.221:5159");
 
 const servers = {
   iceServers: [
