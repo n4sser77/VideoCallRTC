@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script defer src="main.js"></script>
+    <link rel="icon" href="data:,">
+
+    <title>WebRTC</title>
+  </head>
+  <body>
+   <div id="videos">
+         <video class="video-player" id="user-1" autoplay playsinline></video>
+         <video class="video-player" id="user-2" autoplay playsinline></video>
+   </div>
+   <button id="callBtn" onclick="createOffer()">Make offer</button>
+   <button id="answerBtn" onclick="createAnswer()" >Answer</button>
+
+  </body>
+</html>

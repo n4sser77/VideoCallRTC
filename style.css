@@ -1,0 +1,30 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#videos {
+   margin: 2px;
+   display: flex;
+   flex-direction: row;
+   gap: 1em;
+}
+
+.video-player {
+   background-color: black;
+   width: 80%;
+   
+}
+
+@media screen and (max-width: 900px) {
+   #videos {
+      flex-direction: column;
+   }
+}
+
+button {
+   padding: 10px;
+   background-color: antiquewhite;
+   font-size: 24px;
+}
